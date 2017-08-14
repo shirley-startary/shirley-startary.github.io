@@ -33,8 +33,8 @@ var toggleClass = function (element, stringClass) {
 var progreso = 0;
 onscroll=function(){
     var yScroll=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
-		console.log(yScroll);
-		if(yScroll >= 600){
+		// console.log(yScroll);
+		if(yScroll >= 1200){
 			idIterval();
 		}
 }
