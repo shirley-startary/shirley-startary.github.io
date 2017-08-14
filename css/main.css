@@ -358,9 +358,9 @@ footer {
 .fondo {
   background-color: #8f1416; }
 
-.fondo .margin {
-  margin: 2% auto 2%;
-  padding: 5% auto 5%;
+.fondo, .margin {
+  margin: 2% auto;
+  padding: 5% auto;
 }
 
 .progress {
